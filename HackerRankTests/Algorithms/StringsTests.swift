@@ -20,4 +20,26 @@ class StringsTests: XCTestCase {
         let case2 = Strings().alternatingCharacters(s: ["ABBABBAA"])
         XCTAssertEqual(case2, [3])
     }
+    
+    func testTwoStrings() {
+        let case0_1 = Strings().twoStrings(s1: "hello", s2: "world")
+        XCTAssertEqual(case0_1, "YES")
+        
+        let case0_2 = Strings().twoStrings(s1: "hi", s2: "world")
+        XCTAssertEqual(case0_2, "NO")
+    }
+    
+    func testTwoStringsFull() {
+        let case0 = Strings().twoStrings(s: [["hello", "world"], ["hi", "world"]])
+        XCTAssertEqual(case0, ["YES", "NO"])
+        
+        let case1 = Strings().twoStrings(s: [["wouldyoulikefries", "abcabcabcabcabcabc"],
+                                             ["hackerrankcommunity", "cdecdecdecde"],
+                                             ["jackandjill", "wentupthehill"],
+                                             ["writetoyourparents", "fghmqzldbc"]])
+        XCTAssertEqual(case1, ["NO", "YES", "YES", "NO"])
+        
+        let case2 = Strings().twoStrings(s: [["aardvark", "apple"], ["beetroot", "sandals"]])
+        XCTAssertEqual(case2, ["YES", "NO"])
+    }
 }

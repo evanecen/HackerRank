@@ -24,4 +24,22 @@ struct Strings {
         
         return results
     }
+    
+    func twoStrings(s1: String, s2: String) -> String {
+        for char in "abcdefghijklmnopqrstuvwxyz" {
+            if s1.contains(char) && s2.contains(char) {
+                return "YES"
+            }
+        }
+        return "NO"
+    }
+    
+    // twoStrings의 다른 케이스들 확인
+    func twoStrings(s: [[String]]) -> [String] {
+        var results = [String]()
+        for arr in s {
+            results.append(twoStrings(s1: arr[0], s2: arr[1]))
+        }
+        return results
+    }
 }
