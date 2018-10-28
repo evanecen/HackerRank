@@ -14,6 +14,8 @@
 		0DC495512183E83E0097457E /* SortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC495502183E83E0097457E /* SortingTests.swift */; };
 		0DC49553218622150097457E /* Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC49552218622150097457E /* Greedy.swift */; };
 		0DC49555218639C80097457E /* GreedyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC49554218639C80097457E /* GreedyTests.swift */; };
+		0DC49558218640410097457E /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC49557218640410097457E /* Arrays.swift */; };
+		0DC4955B2186411E0097457E /* ArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4955A2186411E0097457E /* ArraysTests.swift */; };
 		0DC4BC4D217F858500AE96FC /* NumberFormatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC4C217F858500AE96FC /* NumberFormatExtension.swift */; };
 		0DC4BC9E217FB1F100AE96FC /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC9D217FB1F100AE96FC /* Strings.swift */; };
 		0DC4BCA0217FB27000AE96FC /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC9F217FB27000AE96FC /* StringsTests.swift */; };
@@ -40,6 +42,8 @@
 		0DC495502183E83E0097457E /* SortingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTests.swift; sourceTree = "<group>"; };
 		0DC49552218622150097457E /* Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greedy.swift; sourceTree = "<group>"; };
 		0DC49554218639C80097457E /* GreedyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyTests.swift; sourceTree = "<group>"; };
+		0DC49557218640410097457E /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		0DC4955A2186411E0097457E /* ArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysTests.swift; sourceTree = "<group>"; };
 		0DC4BC4C217F858500AE96FC /* NumberFormatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatExtension.swift; sourceTree = "<group>"; };
 		0DC4BC9D217FB1F100AE96FC /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		0DC4BC9F217FB27000AE96FC /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0DC4BCA1217FB56200AE96FC /* Algorithms */,
+				0DC495562186400A0097457E /* InterviewPreparationKit */,
 				0DC4BC4B217F856400AE96FC /* Extensions */,
 				0D705EA2217F7187002BFF93 /* Info.plist */,
 			);
@@ -96,9 +101,26 @@
 			isa = PBXGroup;
 			children = (
 				0DC4BCA2217FB57D00AE96FC /* Algorithms */,
+				0DC49559218640EA0097457E /* InterviewPreparationKit */,
 				0D705EAE217F7187002BFF93 /* Info.plist */,
 			);
 			path = HackerRankTests;
+			sourceTree = "<group>";
+		};
+		0DC495562186400A0097457E /* InterviewPreparationKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DC49557218640410097457E /* Arrays.swift */,
+			);
+			path = InterviewPreparationKit;
+			sourceTree = "<group>";
+		};
+		0DC49559218640EA0097457E /* InterviewPreparationKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DC4955A2186411E0097457E /* ArraysTests.swift */,
+			);
+			path = InterviewPreparationKit;
 			sourceTree = "<group>";
 		};
 		0DC4BC4B217F856400AE96FC /* Extensions */ = {
@@ -240,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC4BC4D217F858500AE96FC /* NumberFormatExtension.swift in Sources */,
+				0DC49558218640410097457E /* Arrays.swift in Sources */,
 				0DC4BC9E217FB1F100AE96FC /* Strings.swift in Sources */,
 				0DC4954F2183E8020097457E /* Sorting.swift in Sources */,
 				0D705EB9217F75D7002BFF93 /* Warmup.swift in Sources */,
@@ -252,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC4BCA0217FB27000AE96FC /* StringsTests.swift in Sources */,
+				0DC4955B2186411E0097457E /* ArraysTests.swift in Sources */,
 				0DC495512183E83E0097457E /* SortingTests.swift in Sources */,
 				0D705EAD217F7187002BFF93 /* WarmupTests.swift in Sources */,
 				0DC49555218639C80097457E /* GreedyTests.swift in Sources */,
