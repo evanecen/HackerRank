@@ -29,6 +29,7 @@ class StringsTests: XCTestCase {
         XCTAssertEqual(case0_2, "NO")
     }
     
+    // twoStrings의 여러 케이스들 확인
     func testTwoStringsFull() {
         let case0 = Strings().twoStrings(s: [["hello", "world"], ["hi", "world"]])
         XCTAssertEqual(case0, ["YES", "NO"])
