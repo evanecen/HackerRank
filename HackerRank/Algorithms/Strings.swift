@@ -34,7 +34,7 @@ struct Strings {
         return "NO"
     }
     
-    // twoStrings의 다른 케이스들 확인
+    // twoStrings의 여러 케이스들 확인
     func twoStrings(s: [[String]]) -> [String] {
         var results = [String]()
         for arr in s {
