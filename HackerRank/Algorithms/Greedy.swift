@@ -6,8 +6,6 @@
 //  Copyright © 2018 evanecen. All rights reserved.
 //
 
-import Foundation
-
 struct Greedy {
     
     /// [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)

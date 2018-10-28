@@ -6,8 +6,6 @@
 //  Copyright © 2018 evanecen. All rights reserved.
 //
 
-import Foundation
-
 struct Strings {
     
     /// [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)

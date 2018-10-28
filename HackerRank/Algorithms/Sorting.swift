@@ -6,8 +6,6 @@
 //  Copyright © 2018 evanecen. All rights reserved.
 //
 
-import Foundation
-
 struct Sorting {
     
     /// [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)

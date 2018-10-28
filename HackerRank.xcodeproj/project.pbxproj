@@ -16,6 +16,8 @@
 		0DC49555218639C80097457E /* GreedyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC49554218639C80097457E /* GreedyTests.swift */; };
 		0DC49558218640410097457E /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC49557218640410097457E /* Arrays.swift */; };
 		0DC4955B2186411E0097457E /* ArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4955A2186411E0097457E /* ArraysTests.swift */; };
+		0DC4955D218645130097457E /* DictionariesAndHashmaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4955C218645130097457E /* DictionariesAndHashmaps.swift */; };
+		0DC4955F218646940097457E /* DictionariesAndHashmapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4955E218646940097457E /* DictionariesAndHashmapsTests.swift */; };
 		0DC4BC4D217F858500AE96FC /* NumberFormatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC4C217F858500AE96FC /* NumberFormatExtension.swift */; };
 		0DC4BC9E217FB1F100AE96FC /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC9D217FB1F100AE96FC /* Strings.swift */; };
 		0DC4BCA0217FB27000AE96FC /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4BC9F217FB27000AE96FC /* StringsTests.swift */; };
@@ -44,6 +46,8 @@
 		0DC49554218639C80097457E /* GreedyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyTests.swift; sourceTree = "<group>"; };
 		0DC49557218640410097457E /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		0DC4955A2186411E0097457E /* ArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysTests.swift; sourceTree = "<group>"; };
+		0DC4955C218645130097457E /* DictionariesAndHashmaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesAndHashmaps.swift; sourceTree = "<group>"; };
+		0DC4955E218646940097457E /* DictionariesAndHashmapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesAndHashmapsTests.swift; sourceTree = "<group>"; };
 		0DC4BC4C217F858500AE96FC /* NumberFormatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatExtension.swift; sourceTree = "<group>"; };
 		0DC4BC9D217FB1F100AE96FC /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		0DC4BC9F217FB27000AE96FC /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				0DC49557218640410097457E /* Arrays.swift */,
+				0DC4955C218645130097457E /* DictionariesAndHashmaps.swift */,
 			);
 			path = InterviewPreparationKit;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				0DC4955A2186411E0097457E /* ArraysTests.swift */,
+				0DC4955E218646940097457E /* DictionariesAndHashmapsTests.swift */,
 			);
 			path = InterviewPreparationKit;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC4BC4D217F858500AE96FC /* NumberFormatExtension.swift in Sources */,
+				0DC4955D218645130097457E /* DictionariesAndHashmaps.swift in Sources */,
 				0DC49558218640410097457E /* Arrays.swift in Sources */,
 				0DC4BC9E217FB1F100AE96FC /* Strings.swift in Sources */,
 				0DC4954F2183E8020097457E /* Sorting.swift in Sources */,
@@ -274,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC4955F218646940097457E /* DictionariesAndHashmapsTests.swift in Sources */,
 				0DC4BCA0217FB27000AE96FC /* StringsTests.swift in Sources */,
 				0DC4955B2186411E0097457E /* ArraysTests.swift in Sources */,
 				0DC495512183E83E0097457E /* SortingTests.swift in Sources */,
