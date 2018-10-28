@@ -25,10 +25,10 @@ class WarmupTests: XCTestCase {
     }
     
     func testCompareTheTriplets() {
-        let case0 = Warmup().compareTheTriplets(a: [5, 6, 7], b: [3, 6, 10])
+        let case0 = Warmup().compareTriplets(a: [5, 6, 7], b: [3, 6, 10])
         XCTAssertEqual(case0, [1, 1])
         
-        let case1 = Warmup().compareTheTriplets(a: [17, 28, 30], b: [99, 16, 8])
+        let case1 = Warmup().compareTriplets(a: [17, 28, 30], b: [99, 16, 8])
         XCTAssertEqual(case1, [2, 1])
     }
     

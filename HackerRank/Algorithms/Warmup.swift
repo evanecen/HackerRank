@@ -10,24 +10,29 @@ import Foundation
 
 struct Warmup {
     
+    /// [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
     func solveMeFirst(a: Int, b: Int) -> Int {
         return a + b
     }
     
+    /// [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
     func simpleArraySum(ar: [Int]) -> Int {
         return ar.reduce(0, +)
     }
     
-    func compareTheTriplets(a: [Int], b: [Int]) -> [Int] {
+    /// [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+    func compareTriplets(a: [Int], b: [Int]) -> [Int] {
         let alice = ((a[0]>b[0]) ? 1 : 0) + ((a[1]>b[1]) ? 1 : 0) + ((a[2]>b[2]) ? 1 : 0)
         let bob = ((a[0]<b[0]) ? 1 : 0) + ((a[1]<b[1]) ? 1 : 0) + ((a[2]<b[2]) ? 1 : 0)
         return [alice, bob]
     }
     
+    /// [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
     func aVeryBigSum(ar: [Int]) -> Int {
         return ar.reduce(0, +)
     }
     
+    /// [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
     func diagonalDifference(arr: [[Int]]) -> Int {
         var a = 0, b = 0
         for i in 0..<arr.count {
@@ -38,6 +43,7 @@ struct Warmup {
         return abs(a - b)
     }
     
+    /// [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
     func plusMinus(arr: [Int]) -> [String] {
         let plus = Float(arr.filter { $0 > 0 }.count) / Float(arr.count)
         let minus = Float(arr.filter { $0 < 0 }.count) / Float(arr.count)
@@ -47,6 +53,7 @@ struct Warmup {
         return [plus.format(formatString), minus.format(formatString), zero.format(formatString)]
     }
     
+    /// [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
     func staircase(n: Int) -> String {
         var result = ""
         for i in 1...n {
@@ -56,6 +63,7 @@ struct Warmup {
         return result
     }
     
+    /// [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
     func miniMaxSum(arr: [Int]) -> [Int] {
         var sum = 0, maxValue = 0, minValue = Int.max
         for i in arr {
@@ -66,6 +74,7 @@ struct Warmup {
         return [sum - maxValue, sum - minValue]
     }
     
+    /// [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
     func birthdayCakeCandles(ar: [Int]) -> Int {
         var maxValue = 0, count = 1
         for i in ar {
@@ -79,6 +88,7 @@ struct Warmup {
         return count
     }
     
+    /// [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
     func timeConversion(s: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "hh:mm:ssa"

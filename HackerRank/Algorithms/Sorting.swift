@@ -9,10 +9,13 @@
 import Foundation
 
 struct Sorting {
+    
+    /// [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)
     func introTutorial(V: Int, arr: [Int]) -> Int {
         return arr.index(of: V)!
     }
     
+    /// [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
     func insertionSort1(n: Int, arr: [Int]) -> String {
         var resultString: String = ""
         var arr = arr
@@ -30,6 +33,7 @@ struct Sorting {
         return resultString
     }
     
+    /// [Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2/problem)
     func insertionSort2(n: Int, arr: [Int]) -> String {
         var resultString: String = ""
         var arr = arr

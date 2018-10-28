@@ -9,6 +9,8 @@
 import Foundation
 
 struct Strings {
+    
+    /// [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
     func alternatingCharacters(s: [String]) -> [Int] {
         var results = [Int]()
         s.forEach { string in
@@ -25,6 +27,7 @@ struct Strings {
         return results
     }
     
+    /// [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)
     func twoStrings(s1: String, s2: String) -> String {
         for char in "abcdefghijklmnopqrstuvwxyz" {
             if s1.contains(char) && s2.contains(char) {
@@ -34,7 +37,7 @@ struct Strings {
         return "NO"
     }
     
-    // twoStrings의 여러 케이스들 확인
+    // twoStrings를 사용해서 여러 케이스들 확인하기 위한 function
     func twoStrings(s: [[String]]) -> [String] {
         var results = [String]()
         for arr in s {
