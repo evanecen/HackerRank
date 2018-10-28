@@ -51,10 +51,7 @@ struct Warmup {
         var result = ""
         for i in 1...n {
             result += String(repeating: " ", count: n-i)
-            result += String(repeating: "#", count: i)
-            if i < n {
-                result += "\n"
-            }
+            result += String(repeating: "#", count: i) + "\n"
         }
         return result
     }
