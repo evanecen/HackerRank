@@ -10,7 +10,6 @@ import XCTest
 @testable import HackerRank
 
 class WarmupTests: XCTestCase {
-
     func testSolveMeFirst() {
         let case0 = Warmup().solveMeFirst(a: 2, b: 3)
         XCTAssertEqual(case0, 5)
